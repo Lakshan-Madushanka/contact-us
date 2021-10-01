@@ -1,0 +1,29 @@
+{
+    "name": "lakm/contact",
+    "description": "A Laravel package provide full Contact-Us functionality for your website with full front-end scaffolding",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lakm\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lakshan Madushanka",
+            "email": "epmadushanka@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lakm\\Contact\\ContactServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
