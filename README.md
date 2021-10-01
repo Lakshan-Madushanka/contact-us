@@ -1,6 +1,6 @@
 # Full Contact-Us functionality for your website 
 
-![GitHub release (latest by date)](https://img.shields.io/github/release/Lakshan-Madushanka/contact-us)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Lakshan-Madushanka/contact-us)
 [![GitHub issues](https://img.shields.io/github/issues/Lakshan-Madushanka/contact-us)](https://github.com/Lakshan-Madushanka/contact-us/issues)
 [![GitHub forks](https://img.shields.io/github/forks/Lakshan-Madushanka/contact-us)](https://github.com/Lakshan-Madushanka/contact-us/network)
 [![GitHub license](https://img.shields.io/github/license/Lakshan-Madushanka/contact-us)](https://github.com/Lakshan-Madushanka/contact-us/blob/main/LICENSE.md)
@@ -73,6 +73,11 @@ return [
             //'exampl@text.com' => 'name'
         ]
 ];
+```
+## Change mail template 
+
+```bash
+php artisan vendor:publish --tag laravel-mail
 ```
 
 ## Usage
