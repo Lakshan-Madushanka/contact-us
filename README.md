@@ -12,7 +12,7 @@ This package provide full contact us functionality for your web site with modern
 1). User make a inquery using contact-us page. </br>
 2). Successfully uploaded inquery is saved in db and  forwaded to admins using mail settings. </br>
 3). Admin make a reply. </br>
-4). Successfully uploaded rely is saved in db and forwared to the user and admins.
+4). Successfully uploaded reply is saved in db and forwared to the user and admins.
 
 ## Screen shots
 ![screen1](https://user-images.githubusercontent.com/47297673/135661945-00c7508a-bea4-45c7-a35a-0cd4559ae9f6.PNG)
